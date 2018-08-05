@@ -1,0 +1,17 @@
+[package]
+name = "struct_gen_derive"
+version = "0.1.0"
+authors = ["robertdurst <rsdurst@colby.edu>"]
+description = "Dependency of Struct_gen."
+repository = "https://github.com/robertDurst/struct_gen_derive"
+readme = "README.md"
+keywords = ["struct", "gen"]
+categories = ["development-tools"]
+license = "MIT"
+
+[dependencies]
+syn = "0.10.5"
+quote = "0.3.10"
+
+[lib]
+proc-macro = true
